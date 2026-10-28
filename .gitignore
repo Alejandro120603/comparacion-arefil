@@ -1,0 +1,12 @@
+# Repo público: solo se publica lo que index.html necesita.
+# Todo se ignora por defecto y se permite explícitamente.
+/*
+!/.gitignore
+!/index.html
+!/screenshots/
+
+# Por si acaso dentro de screenshots/
+*.md
+*.csv
+.DS_Store
+Thumbs.db
